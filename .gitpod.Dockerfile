@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 
-RUN sudo apt-get install graphviz
+RUN sudo apt-get install graphviz -y
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
